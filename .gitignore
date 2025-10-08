@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env & secrets
+.env
+*.key
+*.pem
+
+# Data (behåll små samples separat)
+data/raw/
+data/interim/
+data/processed/
+logs/
+result/
+
+# Models
+models/
+*.pt
+*.pth
+*.h5
+
+# Power BI
+powerbi/*.pbix
+powerbi/export/
+
+# IDE
+.vscode/
+.idea/
